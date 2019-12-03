@@ -57,8 +57,14 @@ import javax.annotation.Resources;
  *                          SpEL的写法：${表达式}
  * 用于改变作用范围的
  *      他们的作用就和在xml配置文件中使用scope属性实现的功能是一样的
- * 和生命周期的
+ *      Scope
+ *          作用：用指定bean的作用范围
+ *          属性：
+ *              value：指定范围的取值。常用值：singleton prototype
+ * 和生命周期的  了解
  *      他们的作用就和在xml配置文件中使用init-method属性实现的功能是一样的
+ *      ProDestroy
+ *      PostConstruct
  */
 @Service(value = "accountService")
 public class AccountServiceImpl implements IAccountService {
