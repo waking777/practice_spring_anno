@@ -39,18 +39,18 @@ import javax.annotation.Resources;
  *              可以是变量上面，也可以是方法上面
  *          细节：
  *              在使用注解开发时，set方法就不一定需要了
- *          Qualifier:
+ *      Qualifier:
  *              作用：在按照类中注入的基础上再按名称注入。他在给类成员注入时不能单独使用。
  *              属性：
  *                  value：用于指定bean的id
- *          Resource:
+ *      Resource:
  *              作用：直接按照bean的id注入。可以独立使用。
  *              属性：
  *                  name：用于指定bean的id
- *          以上三个注解都只能注入其他bean类型的数据，而基本类型和String类型无法使用上述注解类型使用。
- *          另外，集合类型的注入只能通过xml来实现。
+ *      以上三个注解都只能注入其他bean类型的数据，而基本类型和String类型无法使用上述注解类型使用。
+ *      另外，集合类型的注入只能通过xml来实现。
  *
- *          @Value
+ *      @Value
  *              作用：用于注入基本类型和String类型的数据
  *              属性：
  *                  value：用于指定数据的值，他可以使用spring中的spel（spring的el表达式）
