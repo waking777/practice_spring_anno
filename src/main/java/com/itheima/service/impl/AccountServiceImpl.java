@@ -65,6 +65,7 @@ import javax.annotation.Resources;
  *      他们的作用就和在xml配置文件中使用init-method属性实现的功能是一样的
  *      ProDestroy
  *      PostConstruct
+ *
  */
 @Service(value = "accountService")
 public class AccountServiceImpl implements IAccountService {
