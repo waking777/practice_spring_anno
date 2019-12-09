@@ -64,7 +64,9 @@ import javax.annotation.Resources;
  * 和生命周期的  了解
  *      他们的作用就和在xml配置文件中使用init-method属性实现的功能是一样的
  *      ProDestroy
+ *          用于指定销毁方法
  *      PostConstruct
+ *          用于指定初始化方法
  *
  */
 @Service(value = "accountService")
